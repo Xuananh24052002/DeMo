@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DeMo\\LXABAITHILAI\\LXABAITHILAI.csproj": {}
+    "C:\\BAITHILAI\\LXABAITHILAI\\LXABAITHILAI.csproj": {}
   },
   "projects": {
-    "C:\\DeMo\\LXABAITHILAI\\LXABAITHILAI.csproj": {
+    "C:\\BAITHILAI\\LXABAITHILAI\\LXABAITHILAI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DeMo\\LXABAITHILAI\\LXABAITHILAI.csproj",
+        "projectUniqueName": "C:\\BAITHILAI\\LXABAITHILAI\\LXABAITHILAI.csproj",
         "projectName": "LXABAITHILAI",
-        "projectPath": "C:\\DeMo\\LXABAITHILAI\\LXABAITHILAI.csproj",
+        "projectPath": "C:\\BAITHILAI\\LXABAITHILAI\\LXABAITHILAI.csproj",
         "packagesPath": "C:\\Users\\FPT\\.nuget\\packages\\",
-        "outputPath": "C:\\DeMo\\LXABAITHILAI\\obj\\",
+        "outputPath": "C:\\BAITHILAI\\LXABAITHILAI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\FPT\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,36 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "EPPLUS": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
